@@ -9,7 +9,7 @@
         android:id="@+id/left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="60dp"
         android:layout_centerVertical="true"
         android:src="@drawable/left"/>
 
@@ -39,23 +39,52 @@
 
     <Button
         android:id="@+id/mop"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="MOP"
+        android:paddingTop="17dip"
+        android:paddingBottom="17dip"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="70dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="80dp"
         android:textColor="#000"/>
 
     <Button
-        android:id="@+id/btn"
-        android:layout_width="wrap_content"
+        android:id="@+id/pump"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:paddingTop="17dip"
+        android:paddingBottom="17dip"
         android:layout_below="@+id/mop"
-        android:text="MOP"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="70dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="65dp"
+        android:text="PUMP"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/roller_up"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ROLLER UP"
+        android:paddingTop="17dip"
+        android:paddingBottom="17dip"
+        android:layout_toLeftOf="@+id/mop"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/roller_down"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="17dip"
+        android:paddingBottom="17dip"
+        android:layout_below="@+id/roller_up"
+        android:layout_toLeftOf="@+id/pump"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="65dp"
+        android:text="ROLLER DOWN"
         android:textColor="#000"/>
 
 </RelativeLayout>

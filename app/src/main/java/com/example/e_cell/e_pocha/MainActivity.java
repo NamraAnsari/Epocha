@@ -12,8 +12,10 @@ public class MainActivity extends AppCompatActivity {
     ImageButton rightArrow;
     ImageButton upArrow;
     ImageButton downArrow;
-    Button btn1;
-    Button btn2;
+    Button mop;
+    Button pump;
+    Button roller_up;
+    Button roller_down;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +26,10 @@ public class MainActivity extends AppCompatActivity {
         rightArrow = findViewById(R.id.right);
         upArrow = findViewById(R.id.up);
         downArrow = findViewById(R.id.down);
-        btn1 = findViewById(R.id.mop);
-        btn2 = findViewById(R.id.btn);
+        mop = findViewById(R.id.mop);
+        pump = findViewById(R.id.pump);
+        roller_up = findViewById(R.id.roller_up);
+        roller_down = findViewById(R.id.roller_down);
 
     }
 }
